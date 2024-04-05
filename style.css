@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media(max-width:430px) {
+    .header__sec1__img {
+        width: 100%;
+    }
+
+    .header__sec1 {
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 0;
+        gap: 0;
+        padding-bottom: 93px;
+    }
+
+    .header__sec1__img img {
+        width: 100%;
+        height: 100%;
+        position: none;
+        top: 0;
+    }
+
+    .text {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .sec2 {
+        padding: 0;
+        padding-top: 305px;
+        text-align: center;
+    }
+
+
+    .section1 {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        margin: 24px;
+        margin-bottom: 0;
+        margin-top: 140px;
+    }
+
+    .box {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .p {
+        width: 100%;
+        text-align: center;
+        size: 48px;
+    }
+
+    .box1 {
+        width: 100%;
+        align-items: center;
+    }
+
+    .box1 img {
+        justify-content: center;
+        align-items: center;
+        margin: 120px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .sec3 {
+        padding: 0px;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(./assets/Group\ 13.png);
+        width: 327px;
+        height: 350px;
+        padding: 24px 0;
+    }
+
+    .sec4 {
+        width: 100%;
+        padding: 0;
+        padding-top: 140px;
+        padding-left: 24px;
+        padding-right: 24px;
+        align-items: center;
+    }
+
+    .p2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer {
+        width: 100%;
+        align-items: center;
+        padding: 0;
+    }
+    .f1{
+        flex-direction: column;
+        text-align: center;
+        padding: 88px 115px;
+    }
+    .f2{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .f{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ima{
+        margin-top: 32px;
+    }
+    .foot{
+        margin: 0;
+        background-image: url(./assets/Group\ 22.png);
+        background-size: 100%;
+        margin-top: 150px;
+    }
+
+}
